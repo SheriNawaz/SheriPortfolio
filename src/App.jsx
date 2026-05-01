@@ -5,7 +5,7 @@ import { Archive } from './pages/Archive';
 
 function App() {
   return (
-    <BrowserRouter basename='/SheriPortfolio/'>
+    <BrowserRouter basename='/'>
       <Routes>
         <Route index element={<Home />} />
         <Route path="archive" element={<Archive />} />
