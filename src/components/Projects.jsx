@@ -5,6 +5,24 @@ import { Link } from 'react-router-dom';
 const projects = [
     {
         id: 1,
+        title: "Inventory Management System",
+        description: "Developed a prototype inventory management system for a car showroom that allows showrooms to easily view and manage stock of different super cars in inventory.",
+        image: "/projects/project4.png",
+        tags: ["PostgreSQL", "ExpressJS", "ReactJS", "NodeJS", "TailwindCSS"],
+        demoUrl: "https://odin-inventory-4wsqjpfny-sherinawazs-projects.vercel.app/",
+        githubUrl: "https://github.com/SheriNawaz/odin-inventory"
+    }, 
+    {
+        id: 2,
+        title: "REI Recruitment",
+        description: "Developed a prototype inventory management system for a car showroom that allows showrooms to easily view and manage stock of different super cars in inventory.",
+        image: "/projects/project5.png",
+        tags: ["ReactJS", "CSS", "EmailJS"],
+        demoUrl: "https://reirecruitment.com",
+        githubUrl: "https://github.com/SheriNawaz"
+    }, 
+    {
+        id: 3,
         title: "Genetic Algorithm Project",
         description: "A self-driving car simulation created using a genetic algorithm and self-made neural network in Unity3D",
         image: "/projects/project1.png",
@@ -13,7 +31,7 @@ const projects = [
         githubUrl: "https://github.com/SheriNawaz/GeneticAlgorithmTeachesCarToDrive"
     }, 
     {
-        id: 2,
+        id: 4,
         title: "AI Fruit Classifier",
         description: "AI Fruit Classifier developed in a team for my Computer Science degree",
         image: "/projects/project5.png",
@@ -22,7 +40,7 @@ const projects = [
         githubUrl: "https://github.com/SheriNawaz/FruitClassifier/tree/main"
     }, 
     {
-        id: 3,
+        id: 5,
         title: "Kitchen Application",
         description: "An application for a kitchen team at a restaurant to improve communication and efficiency with other teams at the restaurant.",
         image: "/projects/project3.png",
@@ -30,6 +48,16 @@ const projects = [
         demoUrl: "https://github.com/SheriNawaz/KitchenApp/blob/main/README.md",
         githubUrl: "https://github.com/SheriNawaz/KitchenApp"
     }, 
+    {
+        id: 6,
+        title: "OpenGL Racing Game",
+        description: "This project was developed as part of a university module where I created a racing game created in C++ using OpenGl implementing toon shaders",
+        image: "/projects/project6.png",
+        tags: ["C++", "OpenGL"],
+        demoUrl: "https://github.com/SheriNawaz/OpenGLRacingGame",
+        githubUrl: "https://github.com/SheriNawaz/OpenGLRacingGame"
+    }, 
+
 ]
 
 export const Projects = () => {

@@ -38,7 +38,7 @@ export const AboutMe = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Technologies I've Worked With</h4>
+                  <h4 className="font-semibold text-lg">Programming Languages</h4>
                   <p className="text-muted-foreground">
                       <div className="flex flex-wrap gap-2 mb-4 py-1">
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Python </span>
@@ -46,18 +46,51 @@ export const AboutMe = () => {
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Java </span>
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> C++ </span>
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> JavaScript </span>
-                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> ReactJS </span>
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> SQL </span>
-                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> PHP </span>
-                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> NodeJS </span>
-                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> OpenGL </span>
-                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Unity3D </span>
                       </div>
                   </p>
                 </div>
               </div>
             </div>
-
+             <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Code className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">Technologies and Frameworks</h4>
+                  <p className="text-muted-foreground">
+                      <div className="flex flex-wrap gap-2 mb-4 py-1">
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> ReactJS </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> NodeJS </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> ExpressJs </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> PostgreSQL </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> TailwindCSS </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Django </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Scikit </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Pytorch </span>
+                      </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+             <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Code className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">Development Tools</h4>
+                  <p className="text-muted-foreground">
+                      <div className="flex flex-wrap gap-2 mb-4 py-1">
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Git </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Amazon Web Services (AWS) </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Jupyter Notebook </span>
+                      </div>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

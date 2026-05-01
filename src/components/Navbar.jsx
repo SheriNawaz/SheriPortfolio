@@ -45,7 +45,7 @@ export const Navbar = () => {
                             <Github className="h-4 w-4 text-primary" />
                         </a>
                         <a 
-                            href="https://www.linkedin.com/in/sheri-nawaz-81429a296/" 
+                            href="https://www.linkedin.com/in/sheri-nawaz/" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors"

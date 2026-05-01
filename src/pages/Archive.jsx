@@ -43,6 +43,22 @@ const projects = [
         demoUrl: "https://sherinawaz.itch.io/dungeon-souls-3d",
         githubUrl: "https://github.com/SheriNawaz/DungeonSouls3D"
     }, 
+    {
+        id: 6,
+        title: "REI Recruitment",
+        description: "Developed a prototype inventory management system for a car showroom that allows showrooms to easily view and manage stock of different super cars in inventory.",
+        tags: ["ReactJS", "CSS", "EmailJS"],
+        demoUrl: "https://reirecruitment.com",
+        githubUrl: "https://github.com/SheriNawaz"
+    }, 
+    {
+        id: 7,
+        title: "Inventory Management System",
+        description: "Developed a prototype inventory management system for a car showroom that allows showrooms to easily view and manage stock of different super cars in inventory.",
+        tags: ["PostgreSQL", "ExpressJS", "ReactJS", "NodeJS", "TailwindCSS"],
+        demoUrl: "https://odin-inventory-4wsqjpfny-sherinawazs-projects.vercel.app/",
+        githubUrl: "https://github.com/SheriNawaz/odin-inventory"
+    }, 
 ];
 
 export const Archive = () => {

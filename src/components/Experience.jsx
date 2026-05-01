@@ -30,13 +30,13 @@ const experiences = [
     {
         id: 3,
         company: "POW Design",
-        position: "Junior Fullstack Developer",
-        period: "NOV 2022 - JAN 2025",
-        location: "London, UK",
+        position: "Junior Developer",
+        period: "JAN 2024 - JAN 2025",
+        location: "Amersham, UK",
         description: [
             "Part-Time role working on fullstack projects for various clients",
             "Developed responsive front-end projects using modern technologies and frameworks such as ReactJS and TailwindCSS",
-            "Developed back-end systems using modern technologies and frameworks such as PHP, NodeJs"
+            "Developed back-end systems using modern technologies and frameworks such as ExpressJS and PostgreSQL"
         ]
     }
 ];
