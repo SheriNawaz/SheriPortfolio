@@ -46,6 +46,7 @@ export const AboutMe = () => {
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Java </span>
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> C++ </span>
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> JavaScript </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Typescript </span>
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> SQL </span>
                       </div>
                   </p>
@@ -61,6 +62,7 @@ export const AboutMe = () => {
                   <h4 className="font-semibold text-lg">Technologies and Frameworks</h4>
                   <p className="text-muted-foreground">
                       <div className="flex flex-wrap gap-2 mb-4 py-1">
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> NextJS </span>
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> ReactJS </span>
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> NodeJS </span>
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> ExpressJs </span>
@@ -86,6 +88,9 @@ export const AboutMe = () => {
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Git </span>
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Amazon Web Services (AWS) </span>
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Jupyter Notebook </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> PrismaORM </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Supabase </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> OpenAPI </span>
                       </div>
                   </p>
                 </div>

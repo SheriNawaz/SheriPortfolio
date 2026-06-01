@@ -14,6 +14,24 @@ const projects = [
     }, 
     {
         id: 2,
+        title: "AI Holiday Planner",
+        description: "Developed a fullstack application in NextJS with Supabase for the backend and PrismaORM for database querying that uses OpenAI’s API to generate holiday itineraries in order to make planning trips much easier.",
+        image: "/projects/project7.png",
+        tags: ["NextJS", "Typescript", "Supabase", "LLMs", "TailwindCSS", "Generative AI", "Prisma"],
+        demoUrl: "https://holiday-app-rouge.vercel.app/",
+        githubUrl: "https://github.com/SheriNawaz/holiday-app"
+    }, 
+    {
+        id: 3,
+        title: "Job Application Tracker",
+        description: "Developed a fullstack website in ReactJS using TailwindCSS and ExpressJS with PostgreSQL and PrismaORM for database querying for the backend where users can manage and track jobs they’ve applied to",
+        image: "/projects/project8.png",
+        tags: ["PostgreSQL", "ExpressJS", "ReactJS", "NodeJS", "TailwindCSS", "Prisma"],
+        demoUrl: "https://application-tracker-peach.vercel.app//",
+        githubUrl: "https://github.com/SheriNawaz/application-tracker"
+    }, 
+    {
+        id: 4,
         title: "REI Recruitment",
         description: "Developed a prototype inventory management system for a car showroom that allows showrooms to easily view and manage stock of different super cars in inventory.",
         image: "/projects/project5.png",
@@ -22,7 +40,7 @@ const projects = [
         githubUrl: "https://github.com/SheriNawaz"
     }, 
     {
-        id: 3,
+        id: 5,
         title: "Genetic Algorithm Project",
         description: "A self-driving car simulation created using a genetic algorithm and self-made neural network in Unity3D",
         image: "/projects/project1.png",
@@ -31,16 +49,7 @@ const projects = [
         githubUrl: "https://github.com/SheriNawaz/GeneticAlgorithmTeachesCarToDrive"
     }, 
     {
-        id: 4,
-        title: "AI Fruit Classifier",
-        description: "AI Fruit Classifier developed in a team for my Computer Science degree",
-        image: "/projects/project5.png",
-        tags: ["Python", "Scikit", "Pytorch", "Matplot"],
-        demoUrl: "https://github.com/SheriNawaz/FruitClassifier/tree/main",
-        githubUrl: "https://github.com/SheriNawaz/FruitClassifier/tree/main"
-    }, 
-    {
-        id: 5,
+        id: 6,
         title: "Kitchen Application",
         description: "An application for a kitchen team at a restaurant to improve communication and efficiency with other teams at the restaurant.",
         image: "/projects/project3.png",
@@ -48,15 +57,7 @@ const projects = [
         demoUrl: "https://github.com/SheriNawaz/KitchenApp/blob/main/README.md",
         githubUrl: "https://github.com/SheriNawaz/KitchenApp"
     }, 
-    {
-        id: 6,
-        title: "OpenGL Racing Game",
-        description: "This project was developed as part of a university module where I created a racing game created in C++ using OpenGl implementing toon shaders",
-        image: "/projects/project6.png",
-        tags: ["C++", "OpenGL"],
-        demoUrl: "https://github.com/SheriNawaz/OpenGLRacingGame",
-        githubUrl: "https://github.com/SheriNawaz/OpenGLRacingGame"
-    }, 
+
 
 ]
 

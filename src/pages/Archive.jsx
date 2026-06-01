@@ -59,6 +59,22 @@ const projects = [
         demoUrl: "https://odin-inventory-4wsqjpfny-sherinawazs-projects.vercel.app/",
         githubUrl: "https://github.com/SheriNawaz/odin-inventory"
     }, 
+    {
+        id: 8,
+        title: "OpenGL Racing Game",
+        description: "This project was developed as part of a university module where I created a racing game created in C++ using OpenGl implementing toon shaders",
+        tags: ["C++", "OpenGL"],
+        demoUrl: "https://github.com/SheriNawaz/OpenGLRacingGame",
+        githubUrl: "https://github.com/SheriNawaz/OpenGLRacingGame"
+    }, 
+    {
+        id: 9,
+        title: "AI Fruit Classifier",
+        description: "AI Fruit Classifier developed in a team for my Computer Science degree",
+        tags: ["Python", "Scikit", "Pytorch", "Matplot"],
+        demoUrl: "https://github.com/SheriNawaz/FruitClassifier/tree/main",
+        githubUrl: "https://github.com/SheriNawaz/FruitClassifier/tree/main"
+    }, 
 ];
 
 export const Archive = () => {
